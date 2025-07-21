@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header layout */
+.header {
+  width: 100%;
+  max-width: 1440px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* 1. Brand Logo Section */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+  opacity: 0.8;
+}
+
+.brand-text {
+  width: 77px;
+  height: 21px;
+}
+
+/* 2. Search Form */
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 665px;
+  height: 40px;
+  border: 1px solid #127FFF;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-input {
+  width: 420px;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-category {
+  width: 145px;
+  height: 100%;
+  border: none;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-button {
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 3. Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.action img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 4px;
+}
+
+
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 40px 80px;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+.footer-icons {
+  width: 200px; 
+  height: 32px; 
+  top: 165px; 
+  left: 125px; 
+}
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.2);
+}
+
+
+.footer-container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.footer-brand {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  width: 44px;
+  vertical-align: middle;
+}
+
+.footer-brand-text {
+  width: 77px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.footer-brand p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #127FFF;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
