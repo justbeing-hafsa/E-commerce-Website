@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <title>E-commerce Website</title>
   <link rel="stylesheet" href="style.css">
+<a href="listview.html">Go to Product List</a>
+<a href="detail.html">Go to Product details</a>
+<a href="gridview.html"> Go to gridview details</a>
+<a href="cart.html">Go to Cart-section</a>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
+
+
+<div class="page wrapper">
+
 
   <header class="header">
     <!-- 1. Logo + Brand -->
@@ -45,6 +53,434 @@
       </div>
     </div>
   </header>
+  <header class="navbar">
+  <div class="navbar__container">
+    <div class="navbar__menu-icon">
+      <img src="menu navbar.svg" alt="Menu Icon">
+    </div>
+
+    <nav class="navbar__links">
+      <a href="#">All Category</a>
+      <a href="#">Hot Offers</a>
+      <a href="#">Gift Boxes</a>
+      <a href="#">Projects</a>
+      <a href="#">Menu Item</a>
+    </nav>
+
+    <div class="navbar__dropdown">
+      <span>Help</span>
+      <img src="expand_more.svg" alt="Expand">
+    </div>
+
+    <div class="navbar__info">
+      <div class="navbar__payment">
+        <span>English</span>
+        <img src="germany.svg" alt="German Flag">
+        <img src="expand_more.svg" alt="Expand">
+      </div>
+
+      <div class="navbar__shipto">
+        <span>Ship to</span>
+        <img src="expand_more.svg" alt="Expand">
+
+    
+    </div>
+  </div>
+</header>
+ <main class="main-section">
+    <div class="main-card">
+      <aside class="side-menu">
+        <ul>
+          <li class="active">Automobiles</li>
+          <li>Clothes and wears</li>
+          <li>Home interiors</li>
+          <li>Computer and tech</li>
+          <li>Tools , equipments</li>
+          <li>Sports and outdoors</li>
+          <li>Animals and pets</li>
+          <li>More Category</li>
+        </ul>
+      </aside>
+
+      <div class="banner">
+        <img src="Banner-board-800x420 2.png" alt="Banner Image" />
+        <div class="banner-text">
+          <p class="latest-trending">Latest trending</p>
+          <h2 class="electronic-items">Electronic items</h2>
+          <button class="shop-now-btn">Learn more</button>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div class="avatar"></div>
+        <p>Hi, user<br>let’s get started</p>
+        <button class="btn-primary">Join Now</button>
+        <button class="btn-outline">Log In</button>
+      </div>
+
+      <div class="promo promo-orange">
+        <p>Get US $10 off with a new supplier</p>
+      </div>
+      <div class="promo promo-blue">
+        <p>Send quotes with supplier preferences</p>
+      </div>
+    </div>
+  </main>
+
+ <section class="sale-section">
+  <div class="sale-card">
+    <div class="sale-header">
+      <h4>Deals and offers</h4>
+      <p class="subheading">Hygiene equipments</p>
+      <div class="countdown" id="countdown">
+        <div class="countdown-box">
+          <span class="number" id="days">04</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="countdown-box">
+          <span class="number" id="hours">13</span>
+          <span class="label">Hour</span>
+        </div>
+        <div class="countdown-box">
+          <span class="number" id="minutes">34</span>
+          <span class="label">Min</span>
+        </div>
+        <div class="countdown-box">
+          <span class="number" id="seconds">56</span>
+          <span class="label">Sec</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sale-items">
+      <div class="item">
+        <div class="image-wrapper">
+          <img src="sale1.png" alt="Smart watch">
+        </div>
+        <p class="title">Smart watches</p>
+        <span class="badge">-25%</span>
+      </div>
+      <div class="item">
+        <div class="image-wrapper">
+          <img src="sale2.png" alt="Laptops">
+        </div>
+        <p class="title">Laptops</p>
+        <span class="badge">-20%</span>
+      </div>
+      <div class="item">
+        <div class="image-wrapper">
+          <img src="sale 3.png" alt="Tablets">
+        </div>
+        <p class="title">Cameras</p>
+        <span class="badge">-30%</span>
+      </div>
+      <div class="item">
+        <div class="image-wrapper">
+          <img src="sale4.png" alt="Headphones">
+        </div>
+        <p class="title">Headphones</p>
+        <span class="badge">-15%</span>
+      </div>
+      <div class="item">
+        <div class="image-wrapper">
+          <img src="sale5.png" alt="Camera">
+        </div>
+        <p class="title">Tablets</p>
+        <span class="badge">-10%</span>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="sale-section.js"></script>
+
+
+<!-- First Block Group -->
+<div class="block-group">
+  <!-- Left Banner -->
+  <div class="left-banner blue-banner">
+    <h5>Home and outdoor</h5>
+    <button class="source-btn">Source now</button>
+    <img src="home.png" alt="home and outdoor" />
+  </div>
+
+  <!-- Right Grid Items -->
+  <div class="right-grid">
+    <div class="item">
+      <p class="item-name">Soft chairs</p>
+      <img src="chair.png" alt="Soft chairs">
+      <p class="item-price">From USD 19</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Sofa & chair</p>
+      <img src="sofa-chair.png" alt="Sofa & chairs">
+      <p class="item-price">From USD 90</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Kitchen dishes</p>
+      <img src="dishes.png" alt="Kitchen dishes">
+      <p class="item-price">From USD 19</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Blender</p>
+      <img src="blender.png" alt="Blender">
+      <p class="item-price">From USD 39</p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Block Group -->
+<div class="block-group">
+  <!-- Left Banner -->
+  <div class="left-banner blue-banner">
+    <h5>Consumer electronics and gadgets</h5>
+    <button class="source-btn">Source now</button>
+    <img src="electronic banner.png" alt="Electronics banner" />
+  </div>
+
+  <!-- Right Grid Items -->
+  <div class="right-grid">
+    <div class="item">
+      <p class="item-name">Smart watches</p>
+      <img src="watch.png" alt="Smart watches">
+      <p class="item-price">From USD 90</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Headphones</p>
+      <img src="headphone.png" alt="Headphones">
+      <p class="item-price">From USD 10</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Laptops & PC</p>
+      <img src="pc.png" alt="Laptops & PC">
+      <p class="item-price">From USD 340</p>
+    </div>
+    <div class="item">
+      <p class="item-name">Smartphones</p>
+      <img src="phone.png" alt="Smartphones">
+      <p class="item-price">From USD 19</p>
+    </div>
+  </div>
+</div>
+
+
+<section class="section-inquiry">
+  <div class="bg-image"></div>
+  <div class="bg-gradient"></div>
+
+  <div class="info-text">
+    <h2>An easy way to send requests to all suppliers</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+
+  <div class="form-card">
+    <h4>Send quote to suppliers</h4>
+    <input type="text" placeholder="What item you need?">
+    <textarea placeholder="Type more details"></textarea>
+    <div class="input-group">
+      <input type="text" placeholder="Quantity">
+      <select>
+        <option>Pieces</option>
+        <option>Kgs</option>
+        <option>Litres</option>
+      </select>
+    </div>
+    <button id="submitBtn">Send Inquiry</button>
+  </div>
+</section>
+
+
+    <!-- recommende section -->
+     <section class="recommended-section">
+  <h2>Recommended items</h2>
+  <div class="recommended-grid">
+    <div class="recommended-card">
+      <img src="item1.png" alt="T-shirt" />
+      <h3>T-shirt</h3>
+      <p>$45.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="item2.png" alt="Coat" />
+      <h3>Coat</h3>
+      <p>$30.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="item3.png" alt="Blazer" />
+      <h3>Blazer</h3>
+      <p>$25.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="item4.png" alt="Wallet" />
+      <h3>Wallet</h3>
+      <p>$60.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="item5.png" alt="bag" />
+      <h3>Bag</h3>
+      <p>$80.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="item6.png" alt="jeans" />
+      <h3>Jeans</h3>
+      <p>$39.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="headphone.png" alt="headphone" />
+      <h3>Headphones</h3>
+      <p>$49.00</p>
+    </div>
+    <div class="recommended-card">
+      <img src="watch.png" alt="watch" />
+      <h3>Watch</h3>
+      <p>$55.00</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-service">
+  <h3 class="service-title">Our extra services</h3>
+
+  <!-- Service Card 1 -->
+  <div class="service-card" style="left: 0px;">
+    <div class="service-bg"></div>
+    <img class="service-image" src="service1.png" alt="Service 1 Image">
+    <div class="service-ellipse">
+      <img src="search.png" class="service-icon" alt="Search Icon">
+    </div>
+    <p class="service-text">source form industry</p>
+  </div>
+
+  <!-- Service Card 2 -->
+  <div class="service-card" style="left: 300px;">
+    <div class="service-bg"></div>
+    <img class="service-image" src="service2.png" alt="Service 2 Image">
+    <div class="service-ellipse">
+      <img src="icon1.png" class="service-icon" alt="Inventory Icon">
+    </div>
+    <p class="service-text">customization</p>
+  </div>
+
+  <!-- Service Card 3 -->
+  <div class="service-card" style="left: 600px;">
+    <div class="service-bg"></div>
+    <img class="service-image" src="service3.png" alt="Service 3 Image">
+    <div class="service-ellipse">
+      <img src="icon2.png" class="service-icon" alt="Send Icon">
+    </div>
+    <p class="service-text">shipping by ocean or air</p>
+  </div>
+
+  <!-- Service Card 4 -->
+  <div class="service-card" style="left: 900px;">
+    <div class="service-bg"></div>
+    <img class="service-image" src="service4.png" alt="Service 4 Image">
+    <div class="service-ellipse">
+      <img src="icon3.png" class="service-icon" alt="Security Icon">
+    </div>
+    <p class="service-text">product inspection</p>
+  </div>
+</section>
+
+<section class="section-country">
+  <h3 class="country-title">Suppliers by region</h3>
+  <div class="country-grid">
+    <!-- Single country item -->
+    <div class="country-item">
+      <div class="flag" style="background-image: url('AE@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">United Arab Emirates</p>
+        <p class="country-subtitle">shop from AE</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('DK@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">Denmark</p>
+        <p class="country-subtitle">shop from DK</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('US@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">United States</p>
+        <p class="country-subtitle">shop from US</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('AU@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">Australia</p>
+        <p class="country-subtitle">shop from AU</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('FR@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">France</p>
+        <p class="country-subtitle">shop from FR</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('RU@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">Russia</p>
+        <p class="country-subtitle">shop from RU</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('CN@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">China</p>
+        <p class="country-subtitle">shop from CN</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('IT@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">Italy</p>
+        <p class="country-subtitle">shop from IT</p>
+      </div>
+    </div>
+
+    <div class="country-item">
+      <div class="flag" style="background-image: url('UK@2x.png');"></div>
+      <div class="country-info">
+        <p class="country-name">United Kingdom</p>
+        <p class="country-subtitle">shop from UK</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section">
+  <div class="newsletter-bg">
+    <h3 class="newsletter-heading">Subscribe on our newsletter</h3>
+    <p class="newsletter-subtitle">Get daily news on upcoming offers from many suppliers all over the world</p>
+    <form class="newsletter-form">
+      <div class="input-container">
+        <span class="email-icon">&#9993;</span>
+        <input type="email" placeholder="Email" required />
+      </div>
+      <button type="submit" class="subscribe-btn">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-brand">
@@ -53,6 +489,8 @@
       <p>Best information about the company lies here</p>
       
     </div>
+
+   
     <div class="footer-icons">
   <img src="facebook3.svg" >
   <img src="twitter3.svg" >
@@ -105,6 +543,9 @@
     </div>
   </div>
 </footer>
+</div>
+
+ <script src="script.js"></script>
 
 </body>
 </html>

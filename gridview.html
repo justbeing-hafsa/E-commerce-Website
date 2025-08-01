@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="detail.css">
+<a href="listview.html">Go to Product List</a>
+<a href="detail.html">Go to Product details</a>
+<a href="gridview.html">          Go to gridview details</a>
+<a href="cart.html">Go to Cart-section</a>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="page w]apper">
+
+
+  <header class="header">
+    <!-- 1. Logo + Brand -->
+    <div class="brand-logo">
+      <img src="logo-symbol.svg" alt="Logo" class="logo">
+      <img src="Brand.svg" alt="Brand" class="brand-text">
+    </div>
+
+    <!-- 2. Search Bar -->
+    <div class="search-form">
+      <input type="text" placeholder="Search" class="search-input">
+      <select class="search-category">
+        <option>All category</option>
+        <!-- Add more options if needed -->
+      </select>
+      <button class="search-button">Search</button>
+    </div>
+
+    <!-- 3. Action Icons -->
+    <div class="header-actions">
+      <div class="action">
+        <img src="vector.svg" alt="Profile">
+        <p>Profile</p>
+      </div>
+      <div class="action">
+        <img src="Vector 1.svg" alt="Message">
+        <p>Message</p>
+      </div>
+      <div class="action">
+        <img src="Vector 2.svg" alt="Orders">
+        <p>Orders</p>
+      </div>
+      <div class="action">
+        <img src="Vector 3.svg" alt="My Cart">
+        <p>My Cart</p>
+      </div>
+    </div>
+  </header>
+  <header class="navbar">
+  <div class="navbar__container">
+    <div class="navbar__menu-icon">
+      <img src="menu navbar.svg" alt="Menu Icon">
+    </div>
+
+    <nav class="navbar__links">
+      <a href="#">All Category</a>
+      <a href="#">Hot Offers</a>
+      <a href="#">Gift Boxes</a>
+      <a href="#">Projects</a>
+      <a href="#">Menu Item</a>
+    </nav>
+
+    <div class="navbar__dropdown">
+      <span>Help</span>
+      <img src="expand_more.svg" alt="Expand">
+    </div>
+
+    <div class="navbar__info">
+      <div class="navbar__payment">
+        <span>English</span>
+        <img src="germany.svg" alt="German Flag">
+        <img src="expand_more.svg" alt="Expand">
+      </div>
+
+      <div class="navbar__shipto">
+        <span>Ship to</span>
+        <img src="expand_more.svg" alt="Expand">
+
+    
+    </div>
+  </div>
+    
+<!-- Breadcrumb Section -->
+<section class="breadcrumb-section">
+  <nav class="breadcrumb-nav">
+    <span class="breadcrumb-item">Home</span>
+    <span class="breadcrumb-icon">›</span>
+    <span class="breadcrumb-item">Clothings</span>
+    <span class="breadcrumb-icon">›</span>
+    <span class="breadcrumb-item">Men’s wear</span>
+    <span class="breadcrumb-icon">›</span>
+    <span class="breadcrumb-item">Summer clothing</span>
+  </nav>
+</section>
+
+
+<!-- Content Top Section -->
+<div class="content-top">
+  <div class="content-bg"></div>
+
+  <div class="content-text">Showing 1–40 of 1200 results</div>
+
+  <div class="content-checkbox">
+    <div class="checkbox-box">
+      <div class="checkbox-square"></div>
+      <div class="checkbox-check"></div>
+    </div>
+    <div class="checkbox-label">Verified only</div>
+  </div>
+
+  <div class="select-box">
+    <div class="select-text">Featured</div>
+    <div class="select-icon"></div>
+  </div>
+
+   <div class="btn-group">
+    <div class="btn-gridview">
+      <div class="grid-icon"></div>
+    </div>
+    <div class="btn-listview">
+      <div class="list-icon"></div>
+    </div>
+  </div>
+
+
+
+<div class="filters-applied">
+  <div class="tag">Samsung<span class="clear-icon">
+    <img src="cross.png">
+  </span></div>
+  <div class="tag">Apple <span class="clear-icon">
+ <img src="cross.png">
+  </span></div>
+  <div class="tag">PC <span class="clear-icon">
+ <img src="cross.png">
+  </span></div>
+  <div class="tag">Camera <span class="clear-icon">
+ <img src="cross.png">
+  </span></div>
+  <div class="tag">XS <span class="clear-icon">
+ <img src="cross.png">
+  </span></div>
+  <div class="tag">XL <span class="clear-icon">
+ <img src="cross.png">
+  </span></div>
+  <div class="clear-all">Clear all filter</div>
+</div>
+
+
+
+ <main class="product-grid">
+  <div class="product-card">
+    <div class="product-image">
+        <img src="phone.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">iPhone 14 Pro Max</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 7 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+  <!-- Repeat 8 more product cards, change titles/prices/etc -->
+  <div class="product-card">
+    <div class="product-image">
+        <img src="headphone.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">Headphones </div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+
+  <div class="product-card">
+    <div class="product-image">
+        <img src="watch.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">iPhone 14</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+        <img src="iphone.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">iPhone 11</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+        <img src="camera.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">Camera</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+
+  <div class="product-card">
+    <div class="product-image">
+        <img src="iphone.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">iPhone 13</div>
+      <div class="price-wrapper">
+        <span class="price">$399.9</span>
+        <span class="old-price">$999.9</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 97 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+
+  <div class="product-card">
+    <div class="product-image">
+      <img src="pc.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">Laptop</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 72 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+
+  <div class="product-card">
+    <div class="product-image">
+          <img src="watch.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">Watch </div>
+      <div class="price-wrapper">
+        <span class="price">$50.50</span>
+        <span class="old-price">$100.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+
+  <div class="product-card">
+    <div class="product-image">
+  <img src="s23.png" alt="Product Name" class="product-image">
+    </div>
+    <div class="product-info">
+      <div class="title">iPhone 14</div>
+      <div class="price-wrapper">
+        <span class="price">$90.50</span>
+        <span class="old-price">$112.00</span>
+      </div>
+      <div class="rating">
+        <span>⭐⭐⭐⭐⭐</span> 12 orders
+      </div>
+      <div class="description">Camera: 48.0MP, Black</div>
+    </div>
+    <div class="favorite-icon">♡</div>
+  </div>
+
+  <!-- ... Add remaining 7 product cards similarly -->
+</main>
+
+
+
+ <!-- Category -->
+  <div class="filter-group">
+    <h3>Category</h3>
+    <ul>
+      <li><input type="checkbox"> Mobile accessory</li>
+      <li><input type="checkbox"> Electronics</li>
+      <li><input type="checkbox"> Smartphones</li>
+      <li><input type="checkbox"> Modern tech</li>
+      <li class="see-all"><a href="#">See all</a></li>
+    </ul>
+  </div>
+
+  <!-- Brands -->
+  <div class="filter-group">
+    <h3>Brands</h3>
+    <ul>
+      <li><input type="checkbox"> Samsung</li>
+      <li><input type="checkbox"> Apple</li>
+      <li><input type="checkbox"> Huawei</li>
+      <li><input type="checkbox"> Pocco</li>
+      <li><input type="checkbox"> Lenovo</li>
+      <li class="see-all"><a href="#">See all</a></li>
+    </ul>
+  </div>
+
+  <!-- Features -->
+  <div class="filter-group">
+    <h3>Features</h3>
+    <ul>
+      <li><input type="checkbox"> Metallic</li>
+      <li><input type="checkbox"> Plastic cover</li>
+      <li><input type="checkbox"> 8GB Ram</li>
+      <li><input type="checkbox"> Super power</li>
+      <li><input type="checkbox"> Large Memory</li>
+      <li class="see-all"><a href="#">See all</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="newsletter">
+  <div class="newsletter-content">
+    <h4 class="newsletter-title">Subscribe on our newsletter</h4>
+    <p class="newsletter-subtitle">Bell & Ross Nightlum</p>
+    <div class="newsletter-form">
+      <div class="input-wrapper">
+        <span class="icon-email"></span>
+        <input type="email" placeholder="Email" />
+      </div>
+      <button class="btn-subscribe">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="footer-alibaba">
+  <!-- Left Group: Logo + Description -->
+  <div class="footer-brand">
+     <img src="logo-symbol.svg" alt="Logo" class="footer-logo" />
+      <img src="Brand.svg" alt="Brand Text" class="footer-brand-text" />
+  </div>
+  <p class="footer-desc">Best information about the company gies here </p>
+
+ 
+  <!-- Center Columns -->
+  <div class="footer-col col-1">
+    <p class="footer-title">For users</p>
+    <p class="footer-link">Login</p>
+    <p class="footer-link">Register</p>
+    <p class="footer-link">Settings</p>
+    <p class="footer-link">My Orders</p>
+  </div>
+  <div class="footer-col col-2">
+    <p class="footer-title">Help</p>
+    <p class="footer-link">Contact Us</p>
+    <p class="footer-link">FAQs</p>
+    <p class="footer-link">Support</p>
+    <p class="footer-link">Terms</p>
+  </div>
+  <div class="footer-col col-3">
+    <p class="footer-title">Explore</p>
+    <p class="footer-link">Categories</p>
+    <p class="footer-link">Brands</p>
+    <p class="footer-link">Deals</p>
+    <p class="footer-link">Shops</p>
+  </div>
+
+  <!-- Get App Section -->
+  <div class="footer-app">
+    <p class="footer-title">Get app</p>
+    <div class="app-store">
+         <img src="market-button 1.svg" alt="Download on App Store" class="app-btn" />
+    </div>
+    <div class="play-store">
+        <img src="market-button 0.svg" alt="Get it on Google Play" class="app-btn" />
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="footer-social">
+     <img src="facebook3.svg" >
+  <img src="twitter3.svg" >
+  <img src="linkedin3.svg" >
+  <img src="instagram3.svg" >
+</div> 
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2023 Ecommerce.</p>
+    <div class="footer-lang">
+      <div class="lang-flag"></div>
+      <p class="lang-text">English</p>
+      <div class="lang-icon"></div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

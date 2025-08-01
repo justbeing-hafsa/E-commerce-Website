@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="detail.css">
+  <a href="cart.html">Go to Cart-section</a>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Links (moved to body) -->
+<a href="listview.html">Go to Product List</a>
+<a href="detail.html">Go to Product details</a>
+
+<div class="page wrapper">
+  <header class="header">
+    <!-- Brand -->
+    <div class="brand-logo">
+      <img src="logo-symbol.svg" alt="Logo" class="logo">
+      <img src="Brand.svg" alt="Brand" class="brand-text">
+    </div>
+
+    <!-- Search -->
+    <div class="search-form">
+      <input type="text" placeholder="Search" class="search-input">
+      <select class="search-category">
+        <option>All category</option>
+      </select>
+      <button class="search-button">Search</button>
+    </div>
+
+    <!-- Actions -->
+    <div class="header-actions">
+      <div class="action"><img src="vector.svg" alt="Profile"><p>Profile</p></div>
+      <div class="action"><img src="Vector 1.svg" alt="Message"><p>Message</p></div>
+      <div class="action"><img src="Vector 2.svg" alt="Orders"><p>Orders</p></div>
+      <div class="action"><img src="Vector 3.svg" alt="My Cart"><p>My Cart</p></div>
+    </div>
+  </header>
+
+  <header class="navbar">
+    <div class="navbar__container">
+      <div class="navbar__menu-icon">
+        <img src="menu navbar.svg" alt="Menu Icon">
+      </div>
+      <nav class="navbar__links">
+        <a href="#">All Category</a>
+        <a href="#">Hot Offers</a>
+        <a href="#">Gift Boxes</a>
+        <a href="#">Projects</a>
+        <a href="#">Menu Item</a>
+      </nav>
+      <div class="navbar__dropdown">
+        <span>Help</span>
+        <img src="expand_more.svg" alt="Expand">
+      </div>
+      <div class="navbar__info">
+        <div class="navbar__payment">
+          <span>English</span>
+          <img src="germany.svg" alt="German Flag">
+          <img src="expand_more.svg" alt="Expand">
+        </div>
+        <div class="navbar__shipto">
+          <span>Ship to</span>
+          <img src="expand_more.svg" alt="Expand">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Card -->
+  <div class="card">
+    <div class="seller-info">
+      <div class="seller-header">
+        <div class="seller-avatar">R</div>
+        <div class="seller-details">
+          <h3>Seller name</h3>
+          <p>Company name</p>
+        </div>
+      </div>
+      <div class="seller-meta">
+        <p><span>Verified</span> • The largest Apple Wa</p>
+        <p>🇩🇪 Germany</p>
+        <p>🌐 The largest Apple Wa</p>
+      </div>
+      <div class="seller-actions">
+        <button class="btn-primary">Send Inquiry</button>
+        <button class="btn-secondary">Seller's profile</button>
+      </div>
+    </div>
+    <div class="product-info">
+      <div class="prices">
+        <div><h4>$98.00</h4><p>50-100 pcs</p></div>
+        <div><h4>$90.00</h4><p>100-700 pcs</p></div>
+        <div><h4>$78.00</h4><p>700+ pcs</p></div>
+      </div>
+      <ul class="product-details">
+        <li>Price: <span>Negotiable</span></li>
+        <li>Type: <span>Classic shoes</span></li>
+        <li>Material: <span>Plastic material</span></li>
+        <li>Design: <span>Modern nice</span></li>
+        <li>Customization: <span>Customized logo and design</span></li>
+        <li>Protection: <span>Refund Policy</span></li>
+        <li>Warranty: <span>2 years full warranty</span></li>
+      </ul>
+      <div class="product-actions">
+        <button class="btn-order">Order</button>
+        <button class="btn-save">Save for later</button>
+        <span class="favorite">❤️</span>
+      </div>
+    </div>
+  </div>
+
+<div class="detail-block">
+    <div class="detail-nav">
+      <div class="tab active">Description</div>
+      <div class="tab">Reviews</div>
+      <div class="tab">Shipping</div>
+      <div class="tab">About seller</div>
+    </div>
+    <div class="description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+         incididunt ut labore et  dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+       fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis aute irure dolor in reprehendrit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur.
+       ...</p>
+    </div>
+    <div class="info-left">
+      <div class="info-row">
+        <div class="label">Model</div>
+        <div class="value">#8786867</div>
+      </div>
+      <div class="info-row">
+        <div class="label">Style</div>
+        <div class="value">Classic style</div>
+      </div>
+      <div class="info-row">
+        <div class="label">Color</div>
+        <div class="value">Blue, Red</div>
+      </div>
+      <div class="info-row">
+        <div class="label">Size</div>
+        <div class="value">M, L, XL</div>
+      </div>
+      <div class="info-row">
+        <div class="label">Origin</div>
+        <div class="value">Made in Italy</div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="icon">
+          <img src="tick.png" >
+        </div>
+        <div class="text">Two Thunderbolt 3 ports</div>
+       
+      </div>
+      <div class="feature">
+        <div class="icon">
+            <img src="tick.png" >
+        </div>
+        <div class="text">Retina display</div>
+      </div>
+      <div class="feature">
+        <div class="icon">
+            <img src="tick.png" >
+        </div>
+        <div class="text">Backlit keyboard</div>
+      </div>
+      <div class="feature">
+        <div class="icon">
+            <img src="tick.png" >
+        </div>
+        <div class="text">Touch ID</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="block-recommend">
+    <h2 class="block-title">Related products</h2>
+    <div class="recommend-list">
+
+      <div class="item">
+        <div class="image-box">
+          <img src="iphone.png" alt="Product 1">
+        </div>
+        <div class="info">
+          <p class="product-name">Iphone-13pro</p>
+          <p class="product-desc">Best Cmera Result</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="image-box">
+          <img src="sale 3.png" alt="Product 2">
+        </div>
+        <div class="info">
+          <p class="product-name">Camera</p>
+          <p class="product-desc">.............</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="image-box">
+          <img src="item1.png" alt="Product 3">
+        </div>
+        <div class="info">
+          <p class="product-name">Casual Shirt</p>
+          <p class="product-desc">100% Cotton</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="image-box">''
+          <img src="watch.png" alt="Product 4">
+        </div>
+        <div class="info">
+          <p class="product-name">Smart Watch</p>
+          <p class="product-desc">Fitness Tracker</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="image-box">
+          <img src="item4.png" alt="Product 5">
+        </div>
+        <div class="info">
+          <p class="product-name">Wallet </p>
+          <p class="product-desc">............</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="image-box">
+          <img src="item2.png" alt="Product 6">
+        </div>
+        <div class="info">
+          <p class="product-name">Winter Jacket</p>
+          <p class="product-desc">Windproof Warm</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="banner">
+  <div class="banner-bg"></div>
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <div class="banner-name">Special Offer: Get the Best Deals Today!</div>
+    <div class="banner-description">Discover exclusive discounts and new arrivals tailored for you.</div>
+    <button class="banner-button">
+      <span>Shop Now</span>
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cart">
+  <div class="cart__header">
+    <div class="cart__title">Shopping Cart</div>
+  </div>
+
+  <!-- Item 1 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="image1.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Product Name</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$120</div>
+    <div class="cart__selectbox">Qty 1</div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="image2.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Product Name</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$95</div>
+    <div class="cart__selectbox">Qty 2</div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="image3.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Product Name</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$150</div>
+    <div class="cart__selectbox">Qty 1</div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="cart__buttons">
+    <div class="cart__button cart__button--primary">Checkout</div>
+    <div class="cart__button cart__button--outline">Continue Shopping</div>
+    <div class="cart__button cart__button--danger">Remove All</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer-alibaba">
+    <div class="footer-brand">
+      <img src="logo-symbol.svg" alt="Logo" class="footer-logo" />
+      <img src="Brand.svg" alt="Brand Text" class="footer-brand-text" />
+    </div>
+    <p class="footer-desc">Best information about the company goes here</p>
+
+    <div class="footer-col col-1">
+      <p class="footer-title">For users</p>
+      <p class="footer-link">Login</p>
+      <p class="footer-link">Register</p>
+      <p class="footer-link">Settings</p>
+      <p class="footer-link">My Orders</p>
+    </div>
+    <div class="footer-col col-2">
+      <p class="footer-title">Help</p>
+      <p class="footer-link">Contact Us</p>
+      <p class="footer-link">FAQs</p>
+      <p class="footer-link">Support</p>
+      <p class="footer-link">Terms</p>
+    </div>
+    <div class="footer-col col-3">
+      <p class="footer-title">Explore</p>
+      <p class="footer-link">Categories</p>
+      <p class="footer-link">Brands</p>
+      <p class="footer-link">Deals</p>
+      <p class="footer-link">Shops</p>
+    </div>
+
+    <div class="footer-app">
+      <p class="footer-title">Get app</p>
+      <div class="app-store">
+        <img src="market-button 1.svg" alt="App Store" class="app-btn" />
+      </div>
+      <div class="play-store">
+        <img src="market-button 0.svg" alt="Google Play" class="app-btn" />
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <img src="facebook3.svg">
+      <img src="twitter3.svg">
+      <img src="linkedin3.svg">
+      <img src="instagram3.svg">
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2023 Ecommerce.</p>
+      <div class="footer-lang">
+        <div class="lang-flag"></div>
+        <p class="lang-text">English</p>
+        <div class="lang-icon"></div>
+      </div>
+    </div>
+  </footer>
+
+</div> <!-- end page wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

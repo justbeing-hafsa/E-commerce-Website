@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+
+<a href="listview.html">Go to Product List</a>
+<a href="detail.html">Go to Product details</a>
+<a href="gridview.html"> Go to gridview details</a>
+<a href="cart.html">Go to Cart-section</a>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="page wrapper">
+
+
+  <header class="header">
+    <!-- 1. Logo + Brand -->
+    <div class="brand-logo">
+      <img src="logo-symbol.svg" alt="Logo" class="logo">
+      <img src="Brand.svg" alt="Brand" class="brand-text">
+    </div>
+
+    <!-- 2. Search Bar -->
+    <div class="search-form">
+      <input type="text" placeholder="Search" class="search-input">
+      <select class="search-category">
+        <option>All category</option>
+        <!-- Add more options if needed -->
+      </select>
+      <button class="search-button">Search</button>
+    </div>
+
+    <!-- 3. Action Icons -->
+    <div class="header-actions">
+      <div class="action">
+        <img src="vector.svg" alt="Profile">
+        <p>Profile</p>
+      </div>
+      <div class="action">
+        <img src="Vector 1.svg" alt="Message">
+        <p>Message</p>
+      </div>
+      <div class="action">
+        <img src="Vector 2.svg" alt="Orders">
+        <p>Orders</p>
+      </div>
+      <div class="action">
+        <img src="Vector 3.svg" alt="My Cart">
+        <p>My Cart</p>
+      </div>
+    </div>
+  </header>
+  <header class="navbar">
+  <div class="navbar__container">
+    <div class="navbar__menu-icon">
+      <img src="menu navbar.svg" alt="Menu Icon">
+    </div>
+
+    <nav class="navbar__links">
+      <a href="#">All Category</a>
+      <a href="#">Hot Offers</a>
+      <a href="#">Gift Boxes</a>
+      <a href="#">Projects</a>
+      <a href="#">Menu Item</a>
+    </nav>
+
+    <div class="navbar__dropdown">
+      <span>Help</span>
+      <img src="expand_more.svg" alt="Expand">
+    </div>
+
+    <div class="navbar__info">
+      <div class="navbar__payment">
+        <span>English</span>
+        <img src="germany.svg" alt="German Flag">
+        <img src="expand_more.svg" alt="Expand">
+      </div>
+
+      <div class="navbar__shipto">
+        <span>Ship to</span>
+        <img src="expand_more.svg" alt="Expand">
+
+    
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<div class="cart">
+  <div class="cart__header">
+    <div class="cart__title">Shopping Cart</div>
+  </div>
+
+  <!-- Item 1 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="watch.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Watchc</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$120</div>
+    <div class="cart__selectbox">Qty 1</div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="headphone.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Headphones</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$95</div>
+    <div class="cart__selectbox">Qty 2</div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="cart__item">
+    <div class="cart__image-box">
+      <img src="camera.png" alt="Product Image">
+    </div>
+    <div class="cart__details">
+      <div class="cart__product-title">Camera</div>
+      <div class="cart__product-desc">Short product description here</div>
+    </div>
+    <div class="cart__price">$150</div>
+    <div class="cart__selectbox">Qty 1</div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="cart__buttons">
+    <div class="cart__button cart__button--primary">Checkout</div>
+    <div class="cart__button cart__button--outline">Continue Shopping</div>
+    <div class="cart__button cart__button--danger">Remove All</div>
+  </div>
+</div>
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+
+</html>
