@@ -11,6 +11,8 @@ body {
 
 /* Header layout */
 .header {
+    position: relative;
+    top: -200px;
   width: 100%;
   max-width: 1440px;
   height: 86px;
@@ -1621,10 +1623,6 @@ body {
 
 
 
-
-
-
-}
 
 
 
